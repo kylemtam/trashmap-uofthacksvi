@@ -12,7 +12,7 @@ firebase.initializeApp({
 const db = firebase.database();
 const coords = db.ref("coords/");
 
-function initMap() {
+initMap = () => {
  	map = new google.maps.Map(document.getElementById('map'), {
 		center: { lat: 50, lng: 256 },
 		zoom: 7
@@ -36,28 +36,28 @@ function initMap() {
 		});
   	} else {
 		handleLocationError(false, infoWindow, map.getCenter());
-  	}
-		infowindow = new google.maps.InfoWindow({
-			content: document.getElementById('form')
-		});
+	  }
+	  
+	infowindow = new google.maps.InfoWindow({
+		content: document.getElementById('form')
+	});
 
-		messagewindow = new google.maps.InfoWindow({
-			content: document.getElementById('message')
-		});
+	messagewindow = new google.maps.InfoWindow({
+		content: document.getElementById('message')
+	});
 
-		coords.on("value", function(ss) {
-			ss.forEach(el => {
-				console.log(el.val());
-				marker = new google.maps.Marker({
-					position: el.val(),
-					map: map
-				});
+	coords.on("value", function(ss) {
+		ss.forEach(el => {
+			console.log(el.val());
+			marker = new google.maps.Marker({
+				position: el.val(),
+				map: map
 			});
-		})
-		
+		});
+	})	
 }
 
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+handleLocationError = (browserHasGeolocation, infoWindow, pos) => {
   	infoWindow.setPosition(pos);
   	infoWindow.setContent(browserHasGeolocation ?
 		'Error: Geolocation is not supported.' :
