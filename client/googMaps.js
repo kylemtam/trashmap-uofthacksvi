@@ -14,7 +14,7 @@ const coords = db.ref("coords/");
 
 function initMap() {
  	map = new google.maps.Map(document.getElementById('map'), {
-		center: {lat: 50, lng: 256},
+		center: { lat: 50, lng: 256 },
 		zoom: 7
   	});
   	infoWindow = new google.maps.InfoWindow;
