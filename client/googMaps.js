@@ -1,4 +1,5 @@
 let map, infoWindow, marker, messagewindow;
+const coords = getCoords();
 
 function initMap() {
 	let latitude, longitude;
