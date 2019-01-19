@@ -1,4 +1,7 @@
+// you know its good when everything is in one file <3
+
 let map, infoWindow, marker, messagewindow;
+
 
 firebase.initializeApp({
     apiKey: "AIzaSyClqkYGZ8mfGfCZWyHoa-rVsOD30HQJNFQ",
@@ -11,6 +14,18 @@ firebase.initializeApp({
 
 const db = firebase.database();
 const coords = db.ref("coords/");
+
+class Trash {
+    constructor(lng, lat, type, recylable) {
+        this.latlng = [lng, lat];
+        this.type = type;
+        this.recylable = recylable;
+    }
+}
+
+let path = db.ref("coords/").push(
+    new Trash(60, 256, "wrapper", false)
+);
 
 initMap = () => {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -51,9 +66,10 @@ initMap = () => {
 
     coords.on("value", function(ss) {
         ss.forEach(el => {
-            console.log(el.val());
+            let latlng = {lat: el.val().latlng[0], lng: el.val().latlng[1]}
+            console.log(latlng);
             marker = new google.maps.Marker({
-                position: el.val(),
+                position: latlng,
                 map: map
             });
         });
