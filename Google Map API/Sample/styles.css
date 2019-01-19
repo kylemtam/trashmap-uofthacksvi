@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	font-size:1em;
+	color:#323232;
+	background-color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#map{
+	height: 100%;
+    width: 100%;
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/
+    z-index: 0;
+}
+
+
+#page{
+	width:100%;
+	margin: 0;
+	padding: 2em,2em,2em,2em;
+	position:relative;
+}
