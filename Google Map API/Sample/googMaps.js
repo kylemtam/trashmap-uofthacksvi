@@ -6,7 +6,7 @@ function initMap() {
 
  	map = new google.maps.Map(document.getElementById('map'), {
 		center: {lat: 50, lng: 256},
-		zoom: 3.8
+		zoom: 7
   	});
   	infoWindow = new google.maps.InfoWindow;
 
@@ -29,6 +29,26 @@ function initMap() {
 	// Browser doesn't support Geolocation
 	handleLocationError(false, infoWindow, map.getCenter());
   	}
+		infowindow = new google.maps.InfoWindow({
+			content: document.getElementById('form')
+		});
+
+		messagewindow = new google.maps.InfoWindow({
+			content: document.getElementById('message')
+		});
+
+		google.maps.event.addListener(map, 'click', function(event) {
+			marker = new google.maps.Marker({
+			position: event.latLng,
+			map: map
+			});
+		});
+
+
+			google.maps.event.addListener(marker, 'click', function() {
+				infowindow.open(map, marker);
+				form.hidden = false;
+			});
 
 }
 
@@ -75,4 +95,4 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 
 	 function doNothing () {
 	 }
-	 */
+*/
