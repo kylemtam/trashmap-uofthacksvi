@@ -8,13 +8,11 @@ firebase.initializeApp({
 	storageBucket: "uofthacks18.appspot.com",
 	messagingSenderId: "33526292057"
 });
+
 const db = firebase.database();
 const coords = db.ref("coords/");
 
 function initMap() {
-	let latitude, longitude;
-	let myLatLng = {lat: latitude, lng: longitude};
-
  	map = new google.maps.Map(document.getElementById('map'), {
 		center: {lat: 50, lng: 256},
 		zoom: 7
@@ -33,12 +31,11 @@ function initMap() {
 	  	infoWindow.open(map);
 	  	map.setCenter(pos);
 	  	map.setZoom(15);
-	}, function() {
-		handleLocationError(true, infoWindow, map.getCenter());
-	});
+		}, function() {
+			handleLocationError(true, infoWindow, map.getCenter());
+		});
   	} else {
-	// Browser doesn't support Geolocation
-	handleLocationError(false, infoWindow, map.getCenter());
+		handleLocationError(false, infoWindow, map.getCenter());
   	}
 		infowindow = new google.maps.InfoWindow({
 			content: document.getElementById('form')
@@ -65,6 +62,5 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   	infoWindow.setContent(browserHasGeolocation ?
 		'Error: Geolocation is not supported.' :
 		'Error: Your browser is not supported.');
-	  infoWindow.open(map);
+	infoWindow.open(map);
 }
-
