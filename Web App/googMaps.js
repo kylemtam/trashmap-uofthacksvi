@@ -23,9 +23,10 @@ class Trash {
     }
 }
 
-let path = db.ref("coords/").push(
-    new Trash(60, 256, "wrapper", false)
-);
+// this is hard coded, replace this with actual stuff in the future
+// let path = db.ref("coords/").push(
+//     new Trash(60, 256, "wrapper", false)
+// );
 
 initMap = () => {
     map = new google.maps.Map(document.getElementById('map'), {
