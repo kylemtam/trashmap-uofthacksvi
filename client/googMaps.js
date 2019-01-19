@@ -1,5 +1,15 @@
 let map, infoWindow, marker, messagewindow;
-const coords = getCoords();
+
+firebase.initializeApp({
+	apiKey: "AIzaSyClqkYGZ8mfGfCZWyHoa-rVsOD30HQJNFQ",
+	authDomain: "uofthacks18.firebaseapp.com",
+	databaseURL: "https://uofthacks18.firebaseio.com",
+	projectId: "uofthacks18",
+	storageBucket: "uofthacks18.appspot.com",
+	messagingSenderId: "33526292057"
+});
+const db = firebase.database();
+const coords = db.ref("coords/");
 
 function initMap() {
 	let latitude, longitude;
@@ -38,19 +48,16 @@ function initMap() {
 			content: document.getElementById('message')
 		});
 
-		google.maps.event.addListener(map, 'click', function(event) {
-			marker = new google.maps.Marker({
-			position: event.latLng,
-			map: map
+		coords.on("value", function(ss) {
+			ss.forEach(el => {
+				console.log(el.val());
+				marker = new google.maps.Marker({
+					position: el.val(),
+					map: map
+				});
 			});
-		});
-
-
-			google.maps.event.addListener(marker, 'click', function() {
-				infowindow.open(map, marker);
-				form.hidden = false;
-			});
-
+		})
+		
 }
 
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
