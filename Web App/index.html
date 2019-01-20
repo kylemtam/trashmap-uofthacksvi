@@ -1,25 +1,35 @@
 <html>
-    <head>
-        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-        <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
 
-    </head>
-    <body>
-      <h1 id="headerbar">Trash Trek <small><small><small><small>- An Open-Source Environmental Mission</small></small></small> </small> </h1>
-        <div class = "bigMap">
-            <div id="map"></div>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="left">
+            <span id="headerbar">Trash Trek </span>
+            <span id="smallbois"><em>A Crowd-Source Environmental Mission</em></span>
         </div>
-        <p> &copy; 2019 Team Name </p>
-        <!-- make sure you load the functions and stuff first, order matters ok -->
-        <script src = "getCoords.js"></script>
-        <script src = "googMaps.js"> </script>
-        <script src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js" crossorigin="anonymous"></script>
-        <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js" src="script.js"> </script> -->
-        <!-- API Key: -->
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOVl5mQ2vUfw7A9Qdi_xT7OkyOi9CFmdg&callback=initMap"> </script>
-    </body>
+        <div id="right">
+            <a href="#" class="navlink">Home</a><a href="#" class="navlink">Purpose</a><a href="#" class="navlink">Contribute</a>
+        </div>
+    </header>
+    <div class="bigMap">
+        <div id="map"></div>
+    </div>
+    <div id="purpose"
+    <p> &copy; 2019 Team Name </p>
+    <script src="getCoords.js"></script>
+    <script src="googMaps.js"> </script>
+    <script src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js" crossorigin="anonymous"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOVl5mQ2vUfw7A9Qdi_xT7OkyOi9CFmdg&callback=initMap">
+    </script>
+</body>
+
 </html>

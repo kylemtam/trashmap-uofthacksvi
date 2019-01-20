@@ -1,62 +1,74 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
-*{
-	/* Universal reset: */
-	margin:0;
-	padding:0;
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|ZCOOL+QingKe+HuangYou';
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
-body{
-	/* Setting the default text color, size, page background and a font stack: */
-	font-size:1em;
-	color:#323232;
-	background-color:#ffffff;
-	font-family:Arial, Helvetica, sans-serif;
+body {
+	font-size: 1em;
+	color: #323232;
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-	font-size: 40px;
-	font-family:Raleway;
-	color: #f2f2f2;
-	text-shadow: 2px 2px #001a00
+p {
+	/* font-family: "Helvetica"; */
+	font-size: 0.6em;
+	line-height: 1.5em;
+	text-align: center;
 }
 
-h2{
-	font-size: 16px;
-	font-family:Raleway;
-	color: #f2f2f2;
-	text-shadow: 2px 2px #001a00
-}
-
-p{
-	font-family: "Helvetica";
-  font-size: 0.6em;
-	line-height:1.5em;
-  text-align: center;
-}
-
-#headerbar{
-	/* background-color: #008000; */
-	background-image: linear-gradient(#008000, #196619);
-	padding-left: 2.8%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-}
-
-#map{
- 	height: 75%;
-  width: 80%;
+#map {
+	height: 75%;
+	width: 80%;
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 35px;
-  z-index: 0;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	z-index: 0;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
+#smallbois {
+	font-size: 24px;
+}
 
-#page{
-	width:100%;
-	margin: 0;
-	padding: 2em,2em,2em,2em;
-	position:relative;
+header {
+	background: #071c08;
+	color: white;
+	display: flex;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.navlink {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	font-size: 24px;
+	padding: 10px;
+}
+
+.navlink:hover {
+	font-weight: bold;
+}
+
+#left {
+	font-size: 50px;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #f2f2f2;
+	text-shadow: 2px 2px #001a00;
+	margin: 10px;
+	display: inline-block;
+}
+
+#right {
+	flex-direction: row;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	margin: 20px;
+	align-self: flex-end;
+	margin-left: auto;
+	margin-right: 20px;
 }
