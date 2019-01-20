@@ -14,6 +14,11 @@ firebase.initializeApp({
 const db = firebase.database();
 const coords = db.ref("coords/");
 
+// wew i know this code is bad
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1)
+}
+
 class Trash {
     constructor(lng, lat, type, recylable) {
         this.latlng = [lng, lat];
@@ -57,7 +62,7 @@ initMap = () => {
     }
 
     infowindow = new google.maps.InfoWindow({
-        content: document.getElementById('form')
+        content: "",
     });
 
     messagewindow = new google.maps.InfoWindow({
@@ -78,6 +83,11 @@ initMap = () => {
 
             //When hovering, displays window
             marker.addListener('mouseover', function() {
+                infowindow.setContent(
+                    el.val().type.capitalize() + 
+                    " found at " + el.val().latlng[0] + 
+                    " " + el.val().latlng[1]
+                );
                 infowindow.open(map, this);
             });
 
