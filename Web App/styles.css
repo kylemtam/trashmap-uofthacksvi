@@ -26,6 +26,41 @@ p {
 	text-align: left;
 }
 
+#purpoPara {
+	height: 60%;
+	width: 40%;
+	margin-left: 100px;
+	margin-top: 300px;
+	font-size: 30px;
+	font-family: 'Open Sans';
+}
+
+#purpoPara2 {
+	height: 25%;
+	width: 40%;
+	float: right;
+	margin-right: 100px;
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: 'Open Sans';
+}
+
+#purpoPara3 {
+	height: 60%;
+	width: 40%;
+	margin-left: 100px;
+	margin-top: 325px;
+	font-size: 30px;
+	font-family: 'Open Sans';
+}
+
+#con {
+	font-size: 70px;
+	font-family: 'Open Sans';
+	margin: auto;
+	text-align: center;
+}
+
 #map {
 	height: 75%;
 	width: 80%;
@@ -41,12 +76,12 @@ p {
 }
 
 #left {
-	font-size: 50px;
+	font-size: 70px;
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
 	color: #f2f2f2;
 	text-shadow: 2px 2px #001a00;
-	margin-left: 20px;
-	margin-top: 10px;
+	margin-left: 27px;
+	margin-top: 17px;
 	display: inline-block;
 }
 
@@ -55,10 +90,11 @@ p {
 	vertical-align: middle;
 	display: inline-block;
 	text-align: center;
-	margin: 20px;
+	margin: 21px;
+	margin-top: 50px;
 	align-self: flex-end;
 	margin-left: auto;
-	margin-right: 20px;
+	margin-right: 27px;
 }
 
 #copyright {
@@ -67,6 +103,13 @@ p {
 	line-height: 1.5em;
 	margin: auto;
 	margin-top: 90px;
+}
+
+#submission {
+	height: 550px;
+	padding: 20px;
+	margin: 100px;
+
 }
 
 .navlink {
