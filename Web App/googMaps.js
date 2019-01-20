@@ -1,5 +1,4 @@
 // you know its good when everything is in one file <3
-
 let map, infoWindow, marker, messagewindow;
 
 
@@ -49,7 +48,7 @@ initMap = () => {
             infoWindow.setContent('Location found');
             infoWindow.open(map);
             map.setCenter(pos);
-            map.setZoom(15);
+            map.setZoom(16);
         }, function() {
             handleLocationError(true, infoWindow, map.getCenter());
         });
@@ -65,17 +64,31 @@ initMap = () => {
         content: document.getElementById('message')
     });
 
+
     coords.on("value", function(ss) {
         ss.forEach(el => {
-            let latlng = {lat: el.val().latlng[0], lng: el.val().latlng[1]}
-            console.log(latlng);
+            let latlng = {
+                lat: el.val().latlng[0],
+                lng: el.val().latlng[1]
+            }
             marker = new google.maps.Marker({
                 position: latlng,
                 map: map
             });
+
+            //When hovering, displays window
+            marker.addListener('mouseover', function() {
+                infowindow.open(map, this);
+            });
+
+            marker.addListener('mouseout', function() {
+                infowindow.close();
+            });
         });
     })
 }
+
+
 
 handleLocationError = (browserHasGeolocation, infoWindow, pos) => {
     infoWindow.setPosition(pos);
