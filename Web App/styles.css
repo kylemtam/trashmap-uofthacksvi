@@ -26,10 +26,6 @@ p {
 	text-align: left;
 }
 
-img {
-	height: 400px;
-}
-
 #purpoPara {
 	height: 60%;
 	width: 40%;
@@ -118,7 +114,7 @@ img {
 	margin: 21px;
 	margin-top: 50px;
 	align-self: flex-end;
-	margin-left: auto;
+	margin-left: 200px;
 	margin-right: 27px;
 }
 
