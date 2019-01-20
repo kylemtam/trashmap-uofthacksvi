@@ -81,13 +81,18 @@ initMap = () => {
                 map: map
             });
 
-            //When hovering, displays window
+            // THIS IS THE ONE PIECE OF CODE I WROTE THAT I THINK IS ACTUALLY WRITTEN PRETTY WELL
+            if(["wrapper", "can", "bottle"].includes(el.val().type))
+                marker.setIcon("./media/"+el.val().type+".png")
+
+            // When hovering, displays window
             marker.addListener('mouseover', function() {
                 infowindow.setContent(
                     el.val().type.capitalize() + 
                     " found at " + el.val().latlng[0] + 
                     " " + el.val().latlng[1]
                 );
+
                 infowindow.open(map, this);
             });
 
