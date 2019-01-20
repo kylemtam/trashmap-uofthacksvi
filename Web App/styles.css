@@ -26,6 +26,10 @@ p {
 	text-align: left;
 }
 
+img {
+	height: 400px;
+}
+
 #purpoPara {
 	height: 60%;
 	width: 40%;
@@ -33,7 +37,26 @@ p {
 	margin-top: 300px;
 	font-size: 30px;
 	font-family: 'Open Sans';
+	display: inline-block;
 }
+
+#image1 {
+	display: inline-block;
+	margin-left: 400px;
+	text-align: right;
+}
+
+#image2 {
+	display: inline-block;
+	margin-left: 350px;
+	text-align: left;
+}
+
+ #image3 {
+ 	display: inline-block;
+ 	margin-left: 400px;
+ 	text-align: right;
+ }
 
 #purpoPara2 {
 	height: 25%;
@@ -43,20 +66,22 @@ p {
 	margin-top: 20px;
 	font-size: 30px;
 	font-family: 'Open Sans';
+	display: inline-block;
 }
 
 #purpoPara3 {
 	height: 60%;
 	width: 40%;
 	margin-left: 100px;
-	margin-top: 325px;
+	margin-top: 250px;
 	font-size: 30px;
 	font-family: 'Open Sans';
+	display: inline-block;
 }
 
 #con {
 	font-size: 70px;
-	font-family: 'Open Sans';
+	font-family: 'ZCOOL QingKe HuangYou';
 	margin: auto;
 	text-align: center;
 }
@@ -102,13 +127,13 @@ p {
 	font-size: 0.6em;
 	line-height: 1.5em;
 	margin: auto;
-	margin-top: 90px;
+	margin-top: 250px;
 }
 
 #submission {
-	height: 550px;
+	height: 200px;
 	padding: 20px;
-	margin: 100px;
+	text-align: center;
 
 }
 
