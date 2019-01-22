@@ -1,0 +1,322 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\c9f55160368227c09478392adf4fb275\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\c27202b1b8cd126d0cdd9ca49edcffe7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-18.0.1.aar\72506c0addd6e8a4d138c711c97f60b6\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-image-label-model-17.0.2.aar\727650c99b0a0272149410aeea81da89\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-model-interpreter-16.2.3.aar\a78388e7a23ae7f7f0deeb50c1e90ee9\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\dcfdce581ee18b5cd15733c486b67347\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\ba645898e6ce460f4b0d74fd7ce937a5\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\b2dcc407869a791e81806b7a8fea7d5e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\b3d1c4bdcb3020911bc7ab8398816a86\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\aaff0aefb02eee884b1e691b16b31947\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-common-16.1.5.aar\06db2cb6be10b4171f5ba760c7aff79f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\0d7ddf2be9f04a283f43505c29642798\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\e6a3765a4e9e41c2c522e7977683d6b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\824aaae9693cc0077741398003e74abb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\7cfd2147ede24879b6379c1977c2dbbe\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\76270d96a27e36e030bcff4a54886d7c\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e0b1447e8c97e7cf59ae898ff69f7db5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\5be93ff0ee67647dafc5c874bafd7f5d\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\e27aa626aeff78c738aeb66393b1718b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\91eeb42669748cd49411062a302a871c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\7fa4fb5e352659366db077deec23f05c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\exifinterface-27.0.0.aar\0f7dc4a7cc301d06676638242559011b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\425355221582f7e7642a6b9f17e30c57\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\90e1108173a8e3fc6b6816d031061b15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\fdf04af19047018bd617ba16ae52d071\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\8f962f93f7112775fbbbb293309e65a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\c63ec048f6c8878c962bbb9eeafc23ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\a5745dc2a01a36f413685e1fec9310ff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\2cbe864bcbfb57a5b941d07380ae6f89\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\0382f29b6a97a51bd54c4742116bc015\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-1.10.0.aar\2d7a50826a0daf4dd3fde1f44ae65db2\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\daf21c016c1851494763d34fe79dde34\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\76270d96a27e36e030bcff4a54886d7c\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\76270d96a27e36e030bcff4a54886d7c\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:7:5-8:38
+	android:maxSdkVersion
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:8:9-35
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:9:5-10:38
+	android:maxSdkVersion
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:10:9-35
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:11:5-64
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:11:22-62
+application
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:12:5-29:19
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-image-label-model-17.0.2.aar\727650c99b0a0272149410aeea81da89\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-image-label-model-17.0.2.aar\727650c99b0a0272149410aeea81da89\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\b2dcc407869a791e81806b7a8fea7d5e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\b2dcc407869a791e81806b7a8fea7d5e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\b3d1c4bdcb3020911bc7ab8398816a86\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\b3d1c4bdcb3020911bc7ab8398816a86\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\aaff0aefb02eee884b1e691b16b31947\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\aaff0aefb02eee884b1e691b16b31947\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\0d7ddf2be9f04a283f43505c29642798\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\0d7ddf2be9f04a283f43505c29642798\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\824aaae9693cc0077741398003e74abb\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\824aaae9693cc0077741398003e74abb\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\7cfd2147ede24879b6379c1977c2dbbe\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\7cfd2147ede24879b6379c1977c2dbbe\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e0b1447e8c97e7cf59ae898ff69f7db5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e0b1447e8c97e7cf59ae898ff69f7db5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\e27aa626aeff78c738aeb66393b1718b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\e27aa626aeff78c738aeb66393b1718b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\91eeb42669748cd49411062a302a871c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\91eeb42669748cd49411062a302a871c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\425355221582f7e7642a6b9f17e30c57\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\425355221582f7e7642a6b9f17e30c57\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-1.10.0.aar\2d7a50826a0daf4dd3fde1f44ae65db2\AndroidManifest.xml:4:5-5:19
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-1.10.0.aar\2d7a50826a0daf4dd3fde1f44ae65db2\AndroidManifest.xml:4:5-5:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\daf21c016c1851494763d34fe79dde34\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\daf21c016c1851494763d34fe79dde34\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:15:9-38
+	android:roundIcon
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:16:9-43
+	android:icon
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.google.firebase.codelab.mlkit.MainActivity
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:19:9-28:20
+	android:screenOrientation
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:20:13-49
+	android:label
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:22:13-42
+	android:configChanges
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:21:13-74
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:26:27-74
+uses-sdk
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\c9f55160368227c09478392adf4fb275\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\c9f55160368227c09478392adf4fb275\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\c27202b1b8cd126d0cdd9ca49edcffe7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\c27202b1b8cd126d0cdd9ca49edcffe7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-18.0.1.aar\72506c0addd6e8a4d138c711c97f60b6\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-18.0.1.aar\72506c0addd6e8a4d138c711c97f60b6\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-image-label-model-17.0.2.aar\727650c99b0a0272149410aeea81da89\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-image-label-model-17.0.2.aar\727650c99b0a0272149410aeea81da89\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-model-interpreter-16.2.3.aar\a78388e7a23ae7f7f0deeb50c1e90ee9\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-model-interpreter-16.2.3.aar\a78388e7a23ae7f7f0deeb50c1e90ee9\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\dcfdce581ee18b5cd15733c486b67347\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\dcfdce581ee18b5cd15733c486b67347\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\ba645898e6ce460f4b0d74fd7ce937a5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\ba645898e6ce460f4b0d74fd7ce937a5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\b2dcc407869a791e81806b7a8fea7d5e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\b2dcc407869a791e81806b7a8fea7d5e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\b3d1c4bdcb3020911bc7ab8398816a86\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\b3d1c4bdcb3020911bc7ab8398816a86\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\aaff0aefb02eee884b1e691b16b31947\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\aaff0aefb02eee884b1e691b16b31947\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-common-16.1.5.aar\06db2cb6be10b4171f5ba760c7aff79f\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-ml-common-16.1.5.aar\06db2cb6be10b4171f5ba760c7aff79f\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\0d7ddf2be9f04a283f43505c29642798\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\0d7ddf2be9f04a283f43505c29642798\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\e6a3765a4e9e41c2c522e7977683d6b3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\e6a3765a4e9e41c2c522e7977683d6b3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\824aaae9693cc0077741398003e74abb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\824aaae9693cc0077741398003e74abb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\7cfd2147ede24879b6379c1977c2dbbe\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\7cfd2147ede24879b6379c1977c2dbbe\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\76270d96a27e36e030bcff4a54886d7c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\76270d96a27e36e030bcff4a54886d7c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e0b1447e8c97e7cf59ae898ff69f7db5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e0b1447e8c97e7cf59ae898ff69f7db5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\5be93ff0ee67647dafc5c874bafd7f5d\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\5be93ff0ee67647dafc5c874bafd7f5d\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\e27aa626aeff78c738aeb66393b1718b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\e27aa626aeff78c738aeb66393b1718b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\91eeb42669748cd49411062a302a871c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\91eeb42669748cd49411062a302a871c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\7fa4fb5e352659366db077deec23f05c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\7fa4fb5e352659366db077deec23f05c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\exifinterface-27.0.0.aar\0f7dc4a7cc301d06676638242559011b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\exifinterface-27.0.0.aar\0f7dc4a7cc301d06676638242559011b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\425355221582f7e7642a6b9f17e30c57\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\425355221582f7e7642a6b9f17e30c57\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\90e1108173a8e3fc6b6816d031061b15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\90e1108173a8e3fc6b6816d031061b15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\fdf04af19047018bd617ba16ae52d071\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\fdf04af19047018bd617ba16ae52d071\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\8f962f93f7112775fbbbb293309e65a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\8f962f93f7112775fbbbb293309e65a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\c63ec048f6c8878c962bbb9eeafc23ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\c63ec048f6c8878c962bbb9eeafc23ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\a5745dc2a01a36f413685e1fec9310ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\a5745dc2a01a36f413685e1fec9310ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\2cbe864bcbfb57a5b941d07380ae6f89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\2cbe864bcbfb57a5b941d07380ae6f89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\0382f29b6a97a51bd54c4742116bc015\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\0382f29b6a97a51bd54c4742116bc015\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\daf21c016c1851494763d34fe79dde34\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\daf21c016c1851494763d34fe79dde34\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\717d5930cfa71194d0505f1867a8d6cd\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\c395094deb1dce0acebd3b7f9d0df998\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\962709ead939eecf933e7c29d00ea621\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\91eeb42669748cd49411062a302a871c\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\91eeb42669748cd49411062a302a871c\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\91eeb42669748cd49411062a302a871c\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\src\main\AndroidManifest.xml:2:1-30:12 reason: org.tensorflow.lite has a targetSdkVersion < 4
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\daf21c016c1851494763d34fe79dde34\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\daf21c016c1851494763d34fe79dde34\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Hannah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\daf21c016c1851494763d34fe79dde34\AndroidManifest.xml:26:13-58

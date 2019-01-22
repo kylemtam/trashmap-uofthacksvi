@@ -1,0 +1,2 @@
+# Referenced at C:\Users\Hannah\Downloads\mlkit-android-master\mlkit-android-master\final\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:26
+-keep class android.support.multidex.MultiDexApplication { <init>(); }
